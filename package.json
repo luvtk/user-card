@@ -1,0 +1,25 @@
+{
+  "name": "user-card",
+  "version": "1.0.0",
+  "description": "user card using polymer library",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "start": "npm run serve | npm run watch",
+    "serve": "polymer serve --port 8080",
+    "watch": "browser-sync start --proxy localhost:8080 --open --files \"**\""
+  },
+  "git": 
+  "keywords": [
+    "user",
+    "card",
+    "polymer"
+  ],
+  "author": "Tank",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.3.0"
+  }
+}
